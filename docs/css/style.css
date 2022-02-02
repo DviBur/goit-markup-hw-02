@@ -1,9 +1,9 @@
 
 body {
    font-family: roboto; 
-
+ background-color: #ffffff;
+ font-family: raleway;
 }
-
 :root {
 
    --primary-text-color: rgba(0, 0, 0, 0.8);
@@ -11,13 +11,16 @@ body {
    --title-text-color: #000000;
    --secondary-background-color: #2F303A;
    --accent-color: #2196Fb;
-   --primary-white-color: #E5E5E5;
-
-   ;
+   --primary-white-color: #F5F4FA;
+   --background-main-white:#ffffff  ;
 }
-
-body {
-   background-color: var(--primary-white-color);
+.list{
+   color: #000000;
+   font-size: 0.875;
+}
+.list :hover,
+.list :focus {
+   color: #2196Fb;
 }
 
 a {
@@ -27,18 +30,13 @@ a {
 
 a.page-header {
    text-decoration: none;
-   padding-left: 15px;
-   padding-right: 15px;
-   width: 100pr;
-   max-width: 1180px;
-   display: flex;
-   justify-content: left;
-   align-items: center;
 }
 
 .site-nav {
    list-style-type: none;
-   display: flex;
+}
+h1 {
+   font-size: 2.75;
 }
 .link.current {
 color: var(--accent-color);
@@ -47,9 +45,10 @@ color: var(--accent-color);
    color: var(--primary-white-color);
    background-color: #2F303A;
 }
-.page-footer {
+footer {
    color: var(--primary-white-color);
    background-color: #2F303A;
+   font-size:0.875 ;
 }
 .logo {
    text-decoration: none;
@@ -57,11 +56,13 @@ color: var(--accent-color);
 
 .logo-element {
    color: var(--accent-color);
+   font-size: 1.625;
 }
-
-.link {
-   color: var(--title-text-color);
-   color: var(--accent-color);
+.team {
+   background-color: var(--primary-white-color) ;
+}
+.button {
+   font-size: 1;
 }
 
 .button:hover {
@@ -73,7 +74,19 @@ color: var(--accent-color);
    background: var(--accent-color);
    color: var(--primary-white-color);
 }
+.characteristic {
+   font-size: 0.875;
+}
+.service {
+   font-size: 2.25;
 
+}
+.team-title {
+   font-size: 2.25;
+}
+.team-name {
+   font-size: 1;
+}
 .title {
    color: var(--secondary-text-color);
 }

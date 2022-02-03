@@ -1,28 +1,21 @@
-
-body {
-   font-family: roboto; 
- background-color: #ffffff;
- font-family: raleway;
-}
 :root {
 
    --primary-text-color: rgba(0, 0, 0, 0.8);
    --secondary-text-color: #757575;
-   --title-text-color: #000000;
+   --title-text-color: #212121;
    --secondary-background-color: #2F303A;
    --accent-color: #2196Fb;
    --primary-white-color: #F5F4FA;
    --background-main-white:#ffffff  ;
 }
-.list{
-   color: #000000;
-   font-size: 0.875;
+body {
+   font-family: roboto; 
+   background-color: #ffffff;
 }
-.list :hover,
-.list :focus {
-   color: #2196Fb;
-}
+li {
+   list-style: none;
 
+}
 a {
    color: inherit;
    text-decoration: none;
@@ -30,36 +23,6 @@ a {
 
 a.page-header {
    text-decoration: none;
-}
-
-.site-nav {
-   list-style-type: none;
-}
-h1 {
-   font-size: 2.75;
-}
-.link.current {
-color: var(--accent-color);
-}
-.hero  {
-   color: var(--primary-white-color);
-   background-color: #2F303A;
-}
-footer {
-   color: var(--primary-white-color);
-   background-color: #2F303A;
-   font-size:0.875 ;
-}
-.logo {
-   text-decoration: none;
-}
-
-.logo-element {
-   color: var(--accent-color);
-   font-size: 1.625;
-}
-.team {
-   background-color: var(--primary-white-color) ;
 }
 .button {
    font-size: 1;
@@ -74,12 +37,60 @@ footer {
    background: var(--accent-color);
    color: var(--primary-white-color);
 }
+.logo {
+   text-decoration: none;
+   font-family: raleway;
+}
+
+.logo-element {
+   color: var(--accent-color);
+   font-size: 1.625;
+}
+
+.site-nav {
+   list-style-type: none;
+}
+.list{
+   color: #000000;
+   font-size: 0.875;
+}
+.list :hover,
+.list :focus {
+   color: #2196Fb;
+}
+h1 {
+   font-size: 2.75;
+}
+.hero  {
+   color: var(--primary-white-color);
+   background-color: #2F303A;
+}
 .characteristic {
    font-size: 0.875;
+   line-height: 1.5rem;
+}
+.characteristic-title {
+   text-transform: uppercase;
+   font-weight:bold ;
+   font-size: 0.875rem ;
+   line-height: 1rem;
+   color: var(--title-text-color);
+}
+.title {
+   color: var(--secondary-text-color);
 }
 .service {
    font-size: 2.25;
+}
+.link {
+   color: #000000;
+}
 
+.link.current {
+color: var(--accent-color);
+}
+ .team {
+  background-color: var(--primary-white-color) ;
 }
 .team-title {
    font-size: 2.25;
@@ -87,16 +98,13 @@ footer {
 .team-name {
    font-size: 1;
 }
-.title {
-   color: var(--secondary-text-color);
+footer {
+   color: var(--primary-white-color);
+   background-color: #2F303A;
+   font-size:0.875 ;
 }
-
 .address {
    color: var(--primary-white-color);
    text-decoration: none;
 }
 
-li {
-   list-style: none;
-
-}

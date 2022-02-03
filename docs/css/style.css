@@ -8,9 +8,13 @@
    --primary-white-color: #F5F4FA;
    --background-main-white:#ffffff  ;
 }
+/* Header */
 body {
-   font-family: roboto; 
+   font-family: roboto, raleway; 
    background-color: #ffffff;
+}
+a.page-header {
+   text-decoration: none;
 }
 li {
    list-style: none;
@@ -21,21 +25,19 @@ a {
    text-decoration: none;
 }
 
-a.page-header {
-   text-decoration: none;
-}
 .button {
    font-size: 1;
+   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus  {
    background: var(--accent-color);
    color: var(--primary-white-color);
+  
 }
-
-.button:focus {
-   background: var(--accent-color);
-   color: var(--primary-white-color);
+.button.current {
+background-color: var(--accent-color);
 }
 .logo {
    text-decoration: none;
@@ -97,6 +99,9 @@ color: var(--accent-color);
 }
 .team-name {
    font-size: 1;
+}
+.team-job-position {
+   color: var(--secondary-text-color);
 }
 footer {
    color: var(--primary-white-color);

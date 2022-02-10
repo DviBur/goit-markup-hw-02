@@ -12,6 +12,8 @@
    background: #ECECEC;
    background: #188CE8;
     */
+   --main-font: roboto, sans-serif;
+   --secondary-font: raleway, sans-serif;
    --primary-text-color: #212121;
    --secondary-text-color: #757575;
    --title-text-color: #212121;
@@ -27,7 +29,7 @@
 
 /* Header */
 body {
-   font-family: roboto;
+   font-family: var(--main-font);
    color: var(--primary-text-color);
    background-color: #ffffff;
    letter-spacing: 0.03em; ;
@@ -113,7 +115,7 @@ a {
 
 .logo {
    text-decoration: none;
-   font-family: raleway;
+   font-family: var(--secondary-font);
    font-weight: bold;
    font-size: 26px;
    line-height: 1.14;

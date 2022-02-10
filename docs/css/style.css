@@ -8,11 +8,12 @@
    --primary-white-color: #F5F4FA;
    --background-main-white: #ffffff;
    --address-color: rgba(255, 255, 255, 0.6);
+   --hover-button-color: #188CE8;
 }
 
 /* Header */
 body {
-   font-family: roboto, raleway;
+   font-family: roboto;
    background-color: #ffffff;
 }
 
@@ -23,10 +24,13 @@ body {
    font-size: 14px;
    line-height: 1;
    color: var(--title-text-color);
+
 }
 
 a.page-header {
    text-decoration: none;
+   display: flex;
+   align-items: center;
 }
 
 li {
@@ -48,12 +52,13 @@ a {
    display: flex;
    align-items: center;
    text-align: center;
-
+   background: var(--accent-color);
+   color: var(--primary-white-color);
 }
 
 .button:hover,
 .button:focus {
-   background: var(--accent-color);
+   background: var(--hover-button-color);
    color: var(--primary-white-color);
 
 }
@@ -89,8 +94,6 @@ a {
 }
 
 
-.hero {}
-
 .hero-title {
    color: var(--background-main-white);
    background-color: var(--secondary-background-color);
@@ -101,8 +104,6 @@ a {
    text-align: center;
    text-transform: uppercase;
 }
-
-.section {}
 
 .section-title {
    font-weight: bold;
@@ -179,12 +180,6 @@ a {
 }
 
 /* Footer */
-footer {
-   color: var(--primary-white-color);
-   background-color: var(--secondary-background-color);
-
-}
-
 .address-place {
    color: var(--background-main-white);
    font-size: 14px;
@@ -196,6 +191,12 @@ footer {
    line-height: 1.7;
    color: var(--address-color);
    text-decoration: none;
+}
+
+footer {
+   color: var(--primary-white-color);
+   background-color: var(--secondary-background-color);
+   font-family: roboto;
 }
 
 /* Portfolio style */

@@ -57,7 +57,7 @@ li {
 }
 
 a {
-   color: inherit;
+   color: var(--primary-text-color);
    text-decoration: none;
 }
 
@@ -179,7 +179,7 @@ a {
 }
 
 .link {
-   color: var(--title-text-color);
+   color: var(--title-text-color) ;
    letter-spacing: 0.02em;
 }
 
@@ -251,7 +251,9 @@ a {
    text-decoration: none;
    font-style: normal;
 }
-
+.logo-footer {
+   color: var(--primary-white-color);
+}
 footer {
    color: var(--primary-white-color);
    background-color: var(--secondary-background-color);

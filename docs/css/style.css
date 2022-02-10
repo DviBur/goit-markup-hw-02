@@ -28,7 +28,9 @@
 /* Header */
 body {
    font-family: roboto;
+   color: var(--primary-text-color);
    background-color: #ffffff;
+   line-height: ;
 }
 
 .site-nav {
@@ -87,7 +89,7 @@ a {
    font-style: normal;
    font-weight: bold;
    font-size: 16px;
-   letter-spacing: 0.5px;
+   letter-spacing:  0.03em;
    line-height: 1.9;
    display: flex;
    align-items: center;
@@ -263,7 +265,7 @@ footer {
    font-size: 16px;
    line-height: 1.8;
    color: var(--secondary-text-color);
-   letter-spacing: 0.5px ;
+   letter-spacing:  0.03em;
 }
 .visually-hidden {
    position: absolute;

@@ -9,6 +9,8 @@
    --background-main-white: #ffffff;
    --address-color: rgba(255, 255, 255, 0.6);
    --hover-button-color: #188CE8;
+   --secondary-button-color: #F5F4FA;
+
 }
 
 /* Header */
@@ -54,6 +56,7 @@ a {
    text-align: center;
    background: var(--accent-color);
    color: var(--primary-white-color);
+   cursor: pointer;
 }
 
 .button:hover,
@@ -67,7 +70,28 @@ a {
    background-color: var(--accent-color);
 }
 
+.filter-button {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 1.9;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   background: var(--primary-white-color);
+   color: var(--primary-text-color);
+   cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+   background: var(--hover-button-color);
+   color: var(--primary-white-color);
+}
+.filter-button.current {
+ background-color: var(--accent-color);
+}
 /* Logo style */
+
 .logo {
    text-decoration: none;
    font-family: raleway;
@@ -141,6 +165,7 @@ a {
 
 .link-contact {
    color: var(--secondary-text-color);
+   font-weight: bold;
 }
 
 .link-contact:hover,

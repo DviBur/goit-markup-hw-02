@@ -212,6 +212,7 @@ a {
    font-size: 36px;
    line-height: 2.6;
    text-align: center;
+   letter-spacing: 0.03em;
 }
 
 .name-title {

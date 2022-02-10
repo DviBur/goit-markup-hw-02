@@ -63,17 +63,18 @@ a {
 
 /* Button style */
 .button {
-   font-style: normal;
-   font-weight: bold;
+   padding-bottom: 20px;
+   display: inline-block;
+   border-radius: 4px;
+   padding: 10px 32px;
+   font-family: Roboto;
+   font-weight: 700;
    font-size: 16px;
-   line-height: 1.9;
-   display: flex;
-   align-items: center;
-   text-align: center;
+   line-height: 1.87;
+   letter-spacing: 0.06em;
    background: var(--accent-color);
    color: var(--primary-white-color);
    cursor: pointer;
-   letter-spacing: 0.06em;
 }
 
 .button:hover,
@@ -88,14 +89,15 @@ a {
 }
 
 .filter-button {
-   font-style: normal;
-   font-weight: bold;
+   display: inline-block;
+   border: 0px;
+   border-radius: 4px;
+   padding: 6px 22px;
+   font-family: Roboto;
+   font-weight: 500;
    font-size: 16px;
-   letter-spacing:  0.03em;
-   line-height: 1.9;
-   display: flex;
-   align-items: center;
-   text-align: center;
+   line-height: 1.62;
+   letter-spacing: 0.03em;
    background: var(--primary-white-color);
    color: var(--primary-text-color);
    cursor: pointer;
@@ -141,15 +143,16 @@ a {
 
 
 .hero-title {
-   color: var(--background-main-white);
-   background-color: var(--secondary-background-color);
-   font-style: normal;
+   padding-bottom: 20px;
    font-weight: 900;
    font-size: 44px;
-   line-height: 1.4;
+   line-height: 1.36;
    text-align: center;
-   text-transform: uppercase;
    letter-spacing: 0.06em;
+   text-transform: uppercase;
+   color: var(--background-main-white);
+   background-color: var(--secondary-background-color);
+ 
 }
  .section {
     letter-spacing:  0.03em ;

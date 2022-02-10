@@ -204,6 +204,7 @@ a {
 
 .team {
    background-color: var(--primary-white-color);
+   letter-spacing: 0.03em;
 }
 
 .team-title {

@@ -30,7 +30,7 @@ body {
    font-family: roboto;
    color: var(--primary-text-color);
    background-color: #ffffff;
-   line-height: ;
+   letter-spacing: 0.03em; ;
 }
 
 .site-nav {
